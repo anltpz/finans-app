@@ -54,11 +54,11 @@ for url in link_list:
           for j in li:
                 span =j.find('span') #hisse bilgi adları
                 tag= j.select_one(":nth-child(2)") #hisse bilgi degerleri
-                text={
+       text={
                     "name":name.text,
                      span.text:tag.text
                 }
-          data_n.append(text)
+       data_n.append(text)
 
         
      

@@ -1,15 +1,7 @@
 [
    {
       "name": "ACIPAYAM SELULOZ - ACSEL",
-      "Fiyat Adımı": "0.05"
-   },
-   {
-      "name": "ACIPAYAM SELULOZ - ACSEL",
       "Baz Fiyatı": "62.25"
-   },
-   {
-      "name": "ADEL KALEMCILIK - ADEL",
-      "Fiyat Adımı": "0.02"
    },
    {
       "name": "ADEL KALEMCILIK - ADEL",
@@ -17,18 +9,30 @@
    },
    {
       "name": "ADESE GAYRIMENKUL - ADESE",
-      "Fiyat Adımı": "0.01"
-   },
-   {
-      "name": "ADESE GAYRIMENKUL - ADESE",
       "Baz Fiyatı": "1.18"
    },
    {
       "name": "ANADOLU EFES - AEFES",
-      "Fiyat Adımı": "0.02"
+      "Baz Fiyatı": "49.58"
    },
    {
-      "name": "ANADOLU EFES - AEFES",
-      "Baz Fiyatı": "49.58"
+      "name": "AFYON CIMENTO - AFYON",
+      "Baz Fiyatı": "6.05"
+   },
+   {
+      "name": "AGESA HAYAT EMEKLILIK - AGESA",
+      "Baz Fiyatı": "29"
+   },
+   {
+      "name": "ANADOLU GRUBU HOLDING - AGHOL",
+      "Baz Fiyatı": "88.1"
+   },
+   {
+      "name": "ATAKULE GMYO - AGYO",
+      "Baz Fiyatı": "6.66"
+   },
+   {
+      "name": "AKBANK - AKBNK",
+      "Baz Fiyatı": "15.75"
    }
 ]
