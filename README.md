@@ -3,7 +3,6 @@
 {
       "name": "ACIPAYAM SELULOZ - ACSEL",
       "data": {
-         "name": "ATAKULE GMYO - AGYO",
          "Hissenin ilk işlem tarihi": "14.02.2002",
          "Son İşlem Fiyatı": "6.73",
          "Alış": "6.74",
