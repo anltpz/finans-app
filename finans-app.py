@@ -35,34 +35,25 @@ for i in href:
          with open("bist.json", "w") as f:
           json.dump(link_list, f, indent=4)
 
-data_info_dict = {}
-data_list={}
-text={}
-data_name={}
+
 data_n=[]
+span_data=[]
+data_list_tag={}
 for url in link_list:
-
-
        page=requests.get(url)
        soup = BeautifulSoup(page.content, 'html.parser')
        name = soup.find("h2")
-       print(name.text)
        div =soup.find('div',class_='p-3')
+       data_list_tag={"name:":name.text}
        span = div.findAll('ul')
        for i in span:
-          li = i.findAll('li')
-          for j in li:
+            li = i.findAll('li')
+            for j in li:
                 span =j.find('span') #hisse bilgi adları
                 tag= j.select_one(":nth-child(2)") #hisse bilgi degerleri
-       text={
-                    "name":name.text,
-                     span.text:tag.text
-                }
-       data_n.append(text)
-
-        
-     
-
+                data_list_tag[span.text]=tag.text
+       data_n.append(data_list_tag)
+       
        
        with open("data-info.json", "w",encoding='utf-8') as f:
           json.dump(data_n, f, indent=3,ensure_ascii=False)
