@@ -1,11 +1,8 @@
 
-from cgi import test
-from distutils.log import info
-from itertools import count
+
 from bs4 import BeautifulSoup
 import requests
 import json
-from time import sleep
 
 url= "https://finans.mynet.com/borsa/hisseler/"
 
@@ -52,6 +49,7 @@ for url in link_list:
                 span =j.find('span') #hisse bilgi adları
                 tag= j.select_one(":nth-child(2)") #hisse bilgi degerleri
                 data_list_tag[span.text]=tag.text
+                print(data_list_tag)
        data_n.append(data_list_tag)
        
        
