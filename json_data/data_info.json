@@ -114,34 +114,5 @@
          "Yillik_En_Yuksek": "53.1",
          "Baz_Fiyati": "47.8"
       }
-   },
-   {
-      "AFYON CIMENTO - AFYON": {
-         "Hissenin_ilk_islem_tarihi": "27.03.1991",
-         "Son_Islem_Fiyati": "6.26",
-         "Alis": "6.25",
-         "Satis": "6.26",
-         "Gunluk_Degisim": "0.11",
-         "Gunluk_Degisim_(%)": "1.79",
-         "Gunluk_Hacim_(Lot)": "35.768.994,00",
-         "Gunluk_Hacim_(TL)": "224.909.523,69",
-         "Gunluk_Ortalama": "6.288",
-         "Gun_Ici_En_Dusuk": "6.08",
-         "Gun_Ici_En_Yuksek": "6.54",
-         "Acilis_Fiyati": "6.17",
-         "Fiyat_Adimi": "0.01",
-         "Onceki_Kapanis_Fiyati": "6.15",
-         "Alt_Marj_Fiyati": "5.64",
-         "Ust_Marj_Fiyati": "6.88",
-         "20_Gunluk_Ortalama": "5.095",
-         "52_Gunluk_Ortalama": "4.842",
-         "Haftalik_En_Dusuk": "5.12",
-         "Haftalik_En_Yuksek": "6.54",
-         "Aylik_En_Dusuk": "4.15",
-         "Aylik_En_Yuksek": "6.54",
-         "Yillik_En_Dusuk": "2.8135",
-         "Yillik_En_Yuksek": "6.54",
-         "Baz_Fiyati": "6.26"
-      }
    }
 ]
