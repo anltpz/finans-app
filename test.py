@@ -1,2 +1,8 @@
-{'name:': 'AFYON CIMENTO - AFYON', 'Hissenin ilk işlem tarihi': '27.03.1991', 'Son İşlem Fiyatı': '5.96', 'Alış': '5.95', 'Satış': '5.96', 'Günlük Değişim': '-0.09', 'Günlük Değişim (%)': '-1.49', 'Günlük Hacim (Lot)': '23.200.131,00', 'Günlük Hacim (TL)': '140.482.115,94', 'Günlük Ortalama': '6.055', 'Gün İçi En Düşük': '5.93', 'Gün İçi En Yüksek': '6.21', 'Açılış Fiyatı': '6.05', 'Fiyat Adımı': '0.01', 'Önceki Kapanış Fiyatı': '6.05', 'Alt Marj Fiyatı': '5.45', 'Üst Marj Fiyatı': '6.65', '20 Günlük Ortalama': '4.933', '52 Günlük Ortalama': '4.768', 'Haftalık En Düşük': '4.82', 'Haftalık En Yüksek': '6.21', 'Aylık En Düşük': '4.15', 'Aylık En Yüksek': '6.21', 'Yıllık En Düşük': '2.8135', 'Yıllık En Yüksek': '6.21'}
-{'name:': 'AFYON CIMENTO - AFYON', 'Hissenin ilk işlem tarihi': '27.03.1991', 'Son İşlem Fiyatı': '5.96', 'Alış': '5.95', 'Satış': '5.96', 'Günlük Değişim': '-0.09', 'Günlük Değişim (%)': '-1.49', 'Günlük Hacim (Lot)': '23.200.131,00', 'Günlük Hacim (TL)': '140.482.115,94', 'Günlük Ortalama': '6.055', 'Gün İçi En Düşük': '5.93', 'Gün İçi En Yüksek': '6.21', 'Açılış Fiyatı': '6.05', 'Fiyat Adımı': '0.01', 'Önceki Kapanış Fiyatı': '6.05', 'Alt Marj Fiyatı': '5.45', 'Üst Marj Fiyatı': '6.65', '20 Günlük Ortalama': '4.933', '52 Günlük Ortalama': '4.768', 'Haftalık En Düşük': '4.82', 'Haftalık En Yüksek': '6.21', 'Aylık En Düşük': '4.15', 'Aylık En Yüksek': '6.21', 'Yıllık En Düşük': '2.8135', 'Yıllık En Yüksek': '6.21', 'Baz Fiyatı': '5.11'}
+kaynak = "şçöğüıŞÇÖĞÜİ"
+hedef  = "scoguiSCOGUI"
+
+çeviri_tablosu = str.maketrans(kaynak, hedef)
+
+metin = "Bildiğiniz gibi, internet üzerinde bazen Türkçe karakterleri kullanamıyoruz."
+
+print(metin.translate(çeviri_tablosu).replace(" ","_"))

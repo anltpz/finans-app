@@ -1,4 +1,4 @@
-#!/Users/aniltopuz/Desktop/finans-app/env/bin/python3.10
+#!/Users/aniltopuz/Desktop/finans-app/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

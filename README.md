@@ -1,43 +1,42 @@
 # Start App
-```
-make run
-```
 
+```
+1-make install
+2-make run
+```
 
 # Example 
 ```
-
-
 
 [
    
    {
       "ACIPAYAM SELULOZ - ACSEL": {
-         "Hissenin ilk işlem tarihi": "06.07.2012",
-         "Son İşlem Fiyatı": "61.45",
-         "Alış": "61.4",
-         "Satış": "61.45",
-         "Günlük Değişim": "-0.8",
-         "Günlük Değişim (%)": "-1.29",
-         "Günlük Hacim (Lot)": "394.281,00",
-         "Günlük Hacim (TL)": "24.163.387,40",
-         "Günlük Ortalama": "61.285",
-         "Gün İçi En Düşük": "60.8",
-         "Gün İçi En Yüksek": "62.6",
-         "Açılış Fiyatı": "62.3",
-         "Fiyat Adımı": "0.05",
-         "Önceki Kapanış Fiyatı": "62.25",
-         "Alt Marj Fiyatı": "55.35",
-         "Üst Marj Fiyatı": "67.55",
-         "20 Günlük Ortalama": "56.431",
-         "52 Günlük Ortalama": "51.524",
-         "Haftalık En Düşük": "59.7",
-         "Haftalık En Yüksek": "65.25",
-         "Aylık En Düşük": "46.12",
-         "Aylık En Yüksek": "68.35",
-         "Yıllık En Düşük": "15.2185",
-         "Yıllık En Yüksek": "68.35",
-         "Baz Fiyatı": "61.45"
+         "Hissenin_ilk_islem_tarihi": "06.07.2012",
+         "Son_Islem_Fiyati": "61.95",
+         "Alis": "61.9",
+         "Satis": "61.95",
+         "Gunluk_Degisim": "-1.95",
+         "Gunluk_Degisim_(%)": "-3.05",
+         "Gunluk_Hacim_(Lot)": "347.690,00",
+         "Gunluk_Hacim_(TL)": "21.767.677,80",
+         "Gunluk_Ortalama": "62.607",
+         "Gun_Ici_En_Dusuk": "61.5",
+         "Gun_Ici_En_Yuksek": "65.65",
+         "Acilis_Fiyati": "64.2",
+         "Fiyat_Adimi": "0.05",
+         "Onceki_Kapanis_Fiyati": "63.9",
+         "Alt_Marj_Fiyati": "57.55",
+         "Ust_Marj_Fiyati": "70.25",
+         "20_Gunluk_Ortalama": "57.811",
+         "52_Gunluk_Ortalama": "52.109",
+         "Haftalik_En_Dusuk": "59.7",
+         "Haftalik_En_Yuksek": "65.65",
+         "Aylik_En_Dusuk": "46.12",
+         "Aylik_En_Yuksek": "68.35",
+         "Yillik_En_Dusuk": "15.2185",
+         "Yillik_En_Yuksek": "68.35",
+         "Baz_Fiyati": "63.9"
       }
   
    ]

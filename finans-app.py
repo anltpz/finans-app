@@ -67,12 +67,11 @@ soup = BeautifulSoup(page.content, 'html.parser')
             
 #             with open("data-info.json", "w",encoding='utf-8') as f:
 #                 json.dump(listen, f, indent=3,ensure_ascii=False)
-    
-
 # base  = Basebs4()
 # base.get_href()
 # base.get_company_name()
 # base.get_data()
+
 
                 
 name = soup.findAll( "strong", 'mr-4' )
@@ -102,8 +101,13 @@ for i in href:
 def get_data():
     company_name={}
     listen=[]
-    for url in link_list:
+        
+    kaynak = "şçöğüıŞÇÖĞÜİ"
+    hedef  = "scoguiSCOGUI"
 
+    for url in link_list:
+        çeviri_tablosu = str.maketrans(kaynak, hedef)
+        
         page=requests.get(url)
         soup = BeautifulSoup(page.content, 'html.parser')
         name = soup.find("h2")
@@ -115,11 +119,11 @@ def get_data():
                     for j in li:
                         span =j.find('span') #hisse bilgi adları
                         tag= j.select_one(":nth-child(2)") #hisse bilgi degerleri
-                        data_list_tag[span.text]=tag.text
+                        metin=span.text.translate(çeviri_tablosu).replace(" ","_")
+                        data_list_tag[metin]=tag.text
                         company_name={
                             name.text:data_list_tag
                         }
-                        print(company_name)
         listen.append(company_name)
         
         with open("data-info.json", "w",encoding='utf-8') as f:
